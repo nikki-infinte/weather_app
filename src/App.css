@@ -1,70 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
 .main {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
-  background-color: rgb(148, 228, 230);
+  background-color: #94e4e6;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .side_box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
+  align-items: center;
+  gap: 10px;
   background-color: #f8f9fa;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
 }
 
 h4 {
-  margin: 0;
   font-size: 18px;
   font-weight: bold;
-}
-
-p {
-  margin: 0;
-  font-size: 16px;
-  color: #666;
 }
 
 .weather-info {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between image and text */
+  gap: 10px;
 }
 
-img {
-  width: 40px; /* Adjust size as needed */
-  height: auto;
+.weather-info img {
+  width: 50px;
 }
 
 h2 {
-  margin: 0;
   font-size: 24px;
   font-weight: bold;
   color: #ff5722;
 }
 
-/* Make Additional divs appear in a row */
-.Additional {
+/* Additional Weather Details */
+.additional {
   display: flex;
-  justify-content: space-between; /* Spreads items evenly */
-  flex-wrap: wrap; /* Ensures responsiveness */
-  gap: 15px; /* Space between boxes */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
   width: 100%;
 }
 
-.Additional div {
-  flex: 1; /* Makes all boxes equal width */
-  min-width: 150px; /* Ensures they don't shrink too much */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.weather-detail {
+  flex: 1;
+  min-width: 150px;
   background-color: #e3f2fd;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
+  text-align: center;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center text inside */
 }

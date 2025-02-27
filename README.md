@@ -1,4 +1,4 @@
-# Practise Weather App ( MERN APP)
+# Practise Weather App ( MERN APP )
 
 
 
